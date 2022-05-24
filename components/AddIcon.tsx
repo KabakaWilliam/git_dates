@@ -5,7 +5,7 @@ const AddIcon = () => {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 24 24"
       color="rgba(255, 255, 255, 0.95)"
       height="20"
