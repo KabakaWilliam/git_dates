@@ -8,7 +8,7 @@ import TextAreaContainer from "./TextAreaContainer";
 const UserCard = () => {
   const [tags, setTags] = useState("");
   return (
-    <div className="w-[300px] h-[450px] snap-y overflow-y-auto snap-mandatory md:w-[400px] md:h-[500px] bg-[#222324]  cursor-pointer shadow-[#131414]  shadow-lg rounded-xl">
+    <div className="select-none w-[300px] h-[450px] snap-y overflow-y-auto snap-mandatory md:w-[400px] md:h-[500px] bg-[#222324]   shadow-[#131414]  shadow-lg rounded-xl">
       <div className="snap-start w-[100%] h-[100%] -green-500 rounded-t-xl  ">
         <div className="h-[20%] w-[100%] flex items-center justify-start  ">
           <div className="text-[#a1a6a7] text-md font-thin pl-5">
